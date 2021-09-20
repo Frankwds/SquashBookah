@@ -1,0 +1,490 @@
+{
+  "id": "89bfa893-c4ee-4d6a-8949-b69579850934",
+  "version": "2.0",
+  "name": "squash",
+  "url": "https://www.sit.no/",
+  "tests": [{
+    "id": "643514d5-05cc-40bc-afa7-df6334bae63e",
+    "name": "test5",
+    "commands": [{
+      "id": "4f210037-4864-48c7-a8b9-4c945d70c777",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sit.no/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "057c4797-df6d-4145-a0b2-12623aafb924",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77c2cd73-cc3e-4874-975f-c672da676be1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.campaign",
+      "targets": [
+        ["css=.campaign", "css:finder"],
+        ["xpath=//div[@id='node-8446']/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f882458-2c2b-424a-8dc6-014668a8e886",
+      "comment": "",
+      "command": "click",
+      "target": "css=.content > #loginbutton > span",
+      "targets": [
+        ["css=.content > #loginbutton > span", "css:finder"],
+        ["xpath=(//a[@id='loginbutton']/span)[2]", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9babffd-9d25-4de7-8b44-1dec5334b7d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.feide-icon",
+      "targets": [
+        ["css=.feide-icon", "css:finder"],
+        ["xpath=//div[@id='loginDefault']/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Logg inn med Feide')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "448c1a8b-ab5f-468a-bf14-7fb4a9060c05",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//ul[@id='accounts']/li/a/div/div[2]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Frank William Daniels')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5618415-f31c-4f11-bf66-f54ecc70279a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trening",
+      "targets": [
+        ["linkText=Trening", "linkText"],
+        ["css=.treningimg-srchttps--wwwsitno-sites-default-files-menu-icons-trening-menysvg > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Trening')])[5]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main-menu']/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/trening')])[21]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75139e43-3c74-4a37-b9d7-e55ca817d92e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Book treningstid",
+      "targets": [
+        ["linkText=Book treningstid", "linkText"],
+        ["css=.item-list:nth-child(3) .leaf:nth-child(1) .item:nth-child(2) > .without-group:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Book treningstid')])[3]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main-menu']/div[3]/ul/li/div/div/div[2]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/trening/treneselv')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/div/div/div[2]/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ade27a07-7c9e-4323-aa9f-ad45a2da3ba9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Squash",
+      "targets": [
+        ["linkText=Squash", "linkText"],
+        ["css=.tab:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Squash')]", "xpath:link"],
+        ["xpath=//section[@id='body-wrapper']/div[2]/div/section/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/trening/squash')]", "xpath:href"],
+        ["xpath=//section/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Squash')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a40061c3-7301-4dad-9f66-791148869640",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9bb22ad-2817-4ae8-b6da-f1512e791e73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ResourceDay:nth-child(2) > .ResourceRow:nth-child(7) .ResourceClass:nth-child(3) span",
+      "targets": [
+        ["css=.ResourceDay:nth-child(2) > .ResourceRow:nth-child(7) .ResourceClass:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='ScheduleApp']/div/div/div[4]/div[2]/div[6]/div[2]/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[6]/div[2]/div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7a0cc18-6dfc-40c2-b2e4-4bb6a371dc72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(1)",
+      "targets": [
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='ScheduleApp']/div/div/div[5]/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Book time')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3ade371-5515-4424-9ab6-ba904c093793",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//div[@id='ModalDiv']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a18fb464-7a8e-46c6-be48-6d3376cae5e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ResourceDay:nth-child(2) > .ResourceRow:nth-child(8) .ResourceClass:nth-child(3) span",
+      "targets": [
+        ["css=.ResourceDay:nth-child(2) > .ResourceRow:nth-child(8) .ResourceClass:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='ScheduleApp']/div/div/div[4]/div[2]/div[7]/div[2]/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[7]/div[2]/div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31686fd2-e367-4b4d-9f92-282e57b5cc78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(1)",
+      "targets": [
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='ScheduleApp']/div/div/div[5]/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Book time')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca67b7b0-0c66-4f5e-9813-23f8d6c9fbbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//div[@id='ModalDiv']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f3dc4c1-2153-48bb-9b6e-6076df31d71d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "91b26bb3-1370-4423-af96-b3422f511f47",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Min side",
+      "targets": [
+        ["linkText=Min side", "linkText"],
+        ["css=.site-header__block--login__link:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='menu-wrapper']/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/user')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c7aac4f-bad5-445d-b889-c4e2aad33094",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logg ut",
+      "targets": [
+        ["linkText=Logg ut", "linkText"],
+        ["css=.logout", "css:finder"],
+        ["xpath=//a[contains(text(),'Logg ut')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'user/logout')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Logg ut')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2128a759-36b5-4b7c-b34c-a79c76f0a76b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.content > #loginbutton > span",
+      "targets": [
+        ["css=.content > #loginbutton > span", "css:finder"],
+        ["xpath=(//a[@id='loginbutton']/span)[2]", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b84d1ac3-9e4a-424a-9987-f78192b857c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.feide-icon",
+      "targets": [
+        ["css=.feide-icon", "css:finder"],
+        ["xpath=//div[@id='loginDefault']/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Logg inn med Feide')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc8b52d8-c7cf-4e34-ba47-956c3566f27f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section-list .media-body",
+      "targets": [
+        ["css=.section-list .media-body", "css:finder"],
+        ["xpath=//ul[@id='accounts']/li/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de0a476f-25f4-4a3b-ad8a-c6e121cb95c6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Trening",
+      "targets": [
+        ["linkText=Trening", "linkText"],
+        ["css=.treningimg-srchttps--wwwsitno-sites-default-files-menu-icons-trening-menysvg > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Trening')])[5]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main-menu']/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/trening')])[21]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "022b707c-dbd9-4778-b270-225e20fb4f34",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trening",
+      "targets": [
+        ["linkText=Trening", "linkText"],
+        ["css=.treningimg-srchttps--wwwsitno-sites-default-files-menu-icons-trening-menysvg > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Trening')])[5]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main-menu']/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/trening')])[21]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5934dda2-8b72-4805-a1f6-20e95b6b8ead",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Trening",
+      "targets": [
+        ["linkText=Trening", "linkText"],
+        ["css=.treningimg-srchttps--wwwsitno-sites-default-files-menu-icons-trening-menysvg > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Trening')])[5]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main-menu']/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/trening')])[21]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fc83a2a-722b-4e73-844a-fc871e50bdd9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Book treningstid",
+      "targets": [
+        ["linkText=Book treningstid", "linkText"],
+        ["css=.item-list:nth-child(3) .leaf:nth-child(1) .item:nth-child(2) > .without-group:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Book treningstid')])[3]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main-menu']/div[3]/ul/li/div/div/div[2]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/trening/treneselv')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/div/div/div[2]/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "446e428a-e4b0-47b8-b4e2-f210e33da110",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Squash",
+      "targets": [
+        ["linkText=Squash", "linkText"],
+        ["css=.tab:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Squash')]", "xpath:link"],
+        ["xpath=//section[@id='body-wrapper']/div[2]/div/section/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/trening/squash')]", "xpath:href"],
+        ["xpath=//section/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Squash')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "425fea05-be80-4ef5-9585-3e7ea2e45b28",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "aba90e73-25e6-4c77-a7db-db82404aef32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ResourceRow:nth-child(7) .myBooking > span",
+      "targets": [
+        ["css=.ResourceRow:nth-child(7) .myBooking > span", "css:finder"],
+        ["xpath=//div[@id='ScheduleApp']/div/div/div[4]/div[2]/div[6]/div[2]/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[6]/div[2]/div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8729ace4-67e1-44cc-b8bd-4672a71783cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-danger",
+      "targets": [
+        ["css=.btn-danger", "css:finder"],
+        ["xpath=//div[@id='ScheduleApp']/div/div/div[5]/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Avbestill')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4b1a8f2-79ba-4339-ab72-65e5ff59663f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//div[@id='ModalDiv']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03dadfcf-05ae-4f12-9572-352639d57dd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.myBooking > span",
+      "targets": [
+        ["css=.myBooking > span", "css:finder"],
+        ["xpath=//div[@id='ScheduleApp']/div/div/div[4]/div[2]/div[7]/div[2]/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[7]/div[2]/div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a8b2afb-0ed4-43ae-b47e-af7fa99a619d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.myBooking",
+      "targets": [
+        ["css=.myBooking", "css:finder"],
+        ["xpath=//div[@id='ScheduleApp']/div/div/div[4]/div[2]/div[7]/div[2]/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[99]", "xpath:href"],
+        ["xpath=//div[2]/div[7]/div[2]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28c5eb5c-b982-4b62-83cd-ad0f950e42ae",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.myBooking",
+      "targets": [
+        ["css=.myBooking", "css:finder"],
+        ["xpath=//div[@id='ScheduleApp']/div/div/div[4]/div[2]/div[7]/div[2]/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[99]", "xpath:href"],
+        ["xpath=//div[2]/div[7]/div[2]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eed17c19-42a7-4c31-b426-4b6594b73b57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-danger",
+      "targets": [
+        ["css=.btn-danger", "css:finder"],
+        ["xpath=//div[@id='ScheduleApp']/div/div/div[5]/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Avbestill')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf44dee6-eeab-46ac-a0ea-aa39ab7670a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//div[@id='ModalDiv']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b64e05e-aeb3-4011-9bce-d373a61ffa3b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "b28701f6-f794-45f0-913a-6bd2fc3d4ef7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-header__block--login__link:nth-child(2) > span",
+      "targets": [
+        ["css=.site-header__block--login__link:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='menu-wrapper']/div[2]/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d454fe4a-86e4-47ee-b49f-7734c007f25c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logg ut",
+      "targets": [
+        ["linkText=Logg ut", "linkText"],
+        ["css=.logout", "css:finder"],
+        ["xpath=//a[contains(text(),'Logg ut')]", "xpath:link"],
+        ["xpath=//div[@id='block-system-main']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'user/logout')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Logg ut')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d2b56c6-a425-417b-b228-6da0c846caf3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "36449bfc-2052-4d7c-a0ef-a852d0a1687a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.sit.no/"],
+  "plugins": []
+}
