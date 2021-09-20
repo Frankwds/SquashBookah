@@ -1,2 +1,2 @@
 # SquashBookah
-Set up automatic booking of squash with at sit/trening
+Set up automatic booking of squash at sit/trening
